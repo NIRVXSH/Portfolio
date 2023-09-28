@@ -1,0 +1,190 @@
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+nav {
+  padding: 60px 10px 0px 30px;
+  flex: var(--sidebar-flex);
+  background: #333;
+}
+nav ul {
+  font-size: var(--fontsize-nav);
+  text-align: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 40px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.condiv {
+  padding: 50px;
+
+  background-image: url('/src/img/preview.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex: var(--condiv-flex);
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 400px;
+  margin: 30px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 20px;
+  color: #333;
+}
+
+.social a img {
+  width: 50px; /* ปรับขนาดของรูปภาพ */
+}
+
+.social a i {
+  font-size: 24px; /* ปรับขนาดของไอคอน */
+  margin-top: 5px;
+}
+
+
+.typingeffect {
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+}
+
+.about {
+  text-align: center;
+}
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+h1,h2,h3,h4 {
+  margin: 10px;
+}
+p {
+  font-size: var(--fontsize-p);
+}
+
+.widecard {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  transition: .3s;
+  border-radius: 10px;
+  padding: .5rem;
+}
+.widecard:hover {
+  color: #fff;
+  background: #333;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+.skills ul {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+.skills ul li {
+  list-style: none;
+  margin: 30px;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* แสดงการ์ด 3 คอลัมน์ต่อแถว */
+  gap: 20px; /* ระยะห่างระหว่างการ์ด */
+}
+
+.certificate-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.certificate-card:hover {
+  transform: scale(1.05); /* ขยายขนาดเมื่อโฮเวอร์การ์ด */
+}
+
+@media (max-width: 768px) {
+  .certificate-card {
+    padding: 8px; /* ลดขนาดการ์ดเมื่อหน้าจอขนาดเล็กลง */
+  }
+
+  .certificate-card img {
+    max-width: auto; /* ลดขนาดรูปภาพให้พอดีกับการ์ด */
+    height: auto;
+  }
+}
+.skills-list,
+.framework-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li,
+.framework-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover,
+.framework-list li:hover {
+  background-color: #333;
+  color: #fff;
+}
