@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/portfolioweb/static/css/main.1fa09e7d.css",
-    "main.js": "/Portfolio/portfolioweb/static/js/main.e0f934fe.js",
-    "static/js/787.2af39c6f.chunk.js": "/Portfolio/portfolioweb/static/js/787.2af39c6f.chunk.js",
-    "static/media/Procircle.png": "/Portfolio/portfolioweb/static/media/Procircle.5107c485a74871d9fb75.png",
-    "static/media/excelmahidol-1.png": "/Portfolio/portfolioweb/static/media/excelmahidol-1.9334481c037d95552cbb.png",
-    "static/media/testingmahidol-1.png": "/Portfolio/portfolioweb/static/media/testingmahidol-1.bff563c5ea3fd42e059d.png",
-    "static/media/borntodev_ChatGPT.png": "/Portfolio/portfolioweb/static/media/borntodev_ChatGPT.c08523dd15cc4e51d38d.png",
-    "static/media/borntodev-acdemy_GitHub for Developer _certifiacte.png": "/Portfolio/portfolioweb/static/media/borntodev-acdemy_GitHub for Developer _certifiacte.fc06a1934dbd8da6929d.png",
-    "static/media/borntodev.png": "/Portfolio/portfolioweb/static/media/borntodev.55e92b5dc69977bd37c9.png",
-    "static/media/Go_Ecommerce.jpg": "/Portfolio/portfolioweb/static/media/Go_Ecommerce.ab44b7e23f194749ef54.jpg",
-    "static/media/Backend.jpg": "/Portfolio/portfolioweb/static/media/Backend.c92084ac7516f2475a6e.jpg",
-    "static/media/IPV6.jpg": "/Portfolio/portfolioweb/static/media/IPV6.3682e07b3f01bc31f727.jpg",
-    "static/media/preview.jpg": "/Portfolio/portfolioweb/static/media/preview.750a838fb1dc53436e9d.jpg",
-    "static/media/tiktok.png": "/Portfolio/portfolioweb/static/media/tiktok.38fd47afd0edfc5f8170.png",
-    "static/media/ig.png": "/Portfolio/portfolioweb/static/media/ig.ada0803263f91510766f.png",
-    "static/media/Facebook.png": "/Portfolio/portfolioweb/static/media/Facebook.24536019b0c5bb9701a9.png",
-    "index.html": "/Portfolio/portfolioweb/index.html",
-    "main.1fa09e7d.css.map": "/Portfolio/portfolioweb/static/css/main.1fa09e7d.css.map",
-    "main.e0f934fe.js.map": "/Portfolio/portfolioweb/static/js/main.e0f934fe.js.map",
-    "787.2af39c6f.chunk.js.map": "/Portfolio/portfolioweb/static/js/787.2af39c6f.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.a1c5bd5f.css",
+    "main.js": "/Portfolio/static/js/main.77a6be32.js",
+    "static/js/787.2af39c6f.chunk.js": "/Portfolio/static/js/787.2af39c6f.chunk.js",
+    "static/media/Procircle.png": "/Portfolio/static/media/Procircle.5107c485a74871d9fb75.png",
+    "static/media/excelmahidol-1.png": "/Portfolio/static/media/excelmahidol-1.9334481c037d95552cbb.png",
+    "static/media/testingmahidol-1.png": "/Portfolio/static/media/testingmahidol-1.bff563c5ea3fd42e059d.png",
+    "static/media/borntodev_ChatGPT.png": "/Portfolio/static/media/borntodev_ChatGPT.c08523dd15cc4e51d38d.png",
+    "static/media/borntodev-acdemy_GitHub for Developer _certifiacte.png": "/Portfolio/static/media/borntodev-acdemy_GitHub for Developer _certifiacte.fc06a1934dbd8da6929d.png",
+    "static/media/borntodev.png": "/Portfolio/static/media/borntodev.55e92b5dc69977bd37c9.png",
+    "static/media/Go_Ecommerce.jpg": "/Portfolio/static/media/Go_Ecommerce.ab44b7e23f194749ef54.jpg",
+    "static/media/Backend.jpg": "/Portfolio/static/media/Backend.c92084ac7516f2475a6e.jpg",
+    "static/media/IPV6.jpg": "/Portfolio/static/media/IPV6.3682e07b3f01bc31f727.jpg",
+    "static/media/preview.jpg": "/Portfolio/static/media/preview.750a838fb1dc53436e9d.jpg",
+    "static/media/tiktok.png": "/Portfolio/static/media/tiktok.38fd47afd0edfc5f8170.png",
+    "static/media/ig.png": "/Portfolio/static/media/ig.ada0803263f91510766f.png",
+    "static/media/Facebook.png": "/Portfolio/static/media/Facebook.24536019b0c5bb9701a9.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a1c5bd5f.css.map": "/Portfolio/static/css/main.a1c5bd5f.css.map",
+    "main.77a6be32.js.map": "/Portfolio/static/js/main.77a6be32.js.map",
+    "787.2af39c6f.chunk.js.map": "/Portfolio/static/js/787.2af39c6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fa09e7d.css",
-    "static/js/main.e0f934fe.js"
+    "static/css/main.a1c5bd5f.css",
+    "static/js/main.77a6be32.js"
   ]
 }
